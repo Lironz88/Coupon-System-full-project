@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(175, 123, 123);
+  border: 3px dashed darkblue;
+  margin: 10px;
+  width: 150px;
+  height: 250px;
+}
+html, body, #root {
+  margin: 0;
+  padding:0;
+  height: 100%;
+  text-align: center;
+}
+
+.CouponBox{
+  color: rgb(15, 9, 9);
+  display: inline-block;
+  text-align: left;
+  align-items: center;
+  border: 6px solid rgb(124, 146, 201);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.SolidBox{
+  color: black;
+  display: inline-block;
+  text-align: left;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.Container{
+  padding: 2px 16px;
+  background-color: #fbda059d;
+  color: black;
+}
+.Container1{
+  color: black;
+}
+.Container2{
+  padding: 2px ;
+  background-color: #d5d5d57b;
+}
+
+.Expire{
+  color: black;
+}
+
+.Image{
+  position: center;
+  left:auto;
+  height: 200px;;
+  width: fit-content;
+}
+
+

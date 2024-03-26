@@ -1,0 +1,15 @@
+.myHeader {
+    margin: 0;
+    padding: 0px;
+}
+
+.botton-padding {
+    padding: 10px;
+    text-align: right;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
